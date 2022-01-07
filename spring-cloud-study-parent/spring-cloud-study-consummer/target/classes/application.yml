@@ -1,0 +1,15 @@
+server:
+  port: 4000
+
+spring:
+  application:
+    name: spring-cloud-study-consummer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:5000/eureka/
+      
+      
+feign:
+  hystrix:
+    enabled: true
